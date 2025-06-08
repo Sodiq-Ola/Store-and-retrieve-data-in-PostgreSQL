@@ -23,3 +23,12 @@ CREATE TABLE users (
   email VARCHAR(100),
   age INTEGER
 );
+
+### POST /users
+
+```json
+{
+  "name": "John Doe",
+  "email": "john@example.com",
+  "age": 30
+}
